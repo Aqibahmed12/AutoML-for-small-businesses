@@ -15,13 +15,13 @@ from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score, a
 import pickle
 
 # Title and description
-st.title("Machine Learning Application Created by Maria Nadeem")
+st.title("Machine Learning Application Created by Aqib Ahmed")
 st.write("This application allows you to perform machine learning tasks such as data loading, preprocessing, model selection, training, evaluation, and prediction.")
 
 # Greetings button
 if st.button("Greetings"):
     st.balloons()
-    st.write("Hello there! Welcome to the Machine Learning Application.")
+    st.write("Hello there! Welcome to the AutoML fro small businesses.")
 
 # Data loading
 st.sidebar.header("Data Loading")
@@ -181,3 +181,4 @@ def expensive_computation():
 if st.button("Run Expensive Computation"):
     expensive_computation()
     st.write("Expensive computation completed.")
+
