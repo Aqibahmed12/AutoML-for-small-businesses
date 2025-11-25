@@ -314,7 +314,8 @@ if st.button("Run creative expensive computation"):
         fig = px.histogram(arr, nbins=30, title="Result distribution from creative computation")
         st.plotly_chart(fig, use_container_width=True)
 
-st.caption("Built with ❤️ by Aqib Ahmed — fork and extend.")test_size = st.sidebar.slider("Select Train Test Split Size:", 0.1, 0.9, 0.2)
+st.caption("Built with ❤️ by Aqib Ahmed — fork and extend.")
+test_size = st.sidebar.slider("Select Train Test Split Size:", 0.1, 0.9, 0.2)
 X_train, X_test, y_train, y_test = train_test_split(data[selected_features], data[selected_target], test_size=test_size, random_state=42)
 
 # Model selection
@@ -385,5 +386,6 @@ def expensive_computation():
 if st.button("Run Expensive Computation"):
     expensive_computation()
     st.write("Expensive computation completed.")
+
 
 
