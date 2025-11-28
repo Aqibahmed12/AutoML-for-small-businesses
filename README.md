@@ -181,9 +181,6 @@ If a CONTRIBUTING.md or CODE_OF_CONDUCT.md is missing, please add one in your PR
 - If you will run the code on sensitive data, ensure encryption at rest and in transit, and follow local regulations (GDPR, CCPA).
 - Report security issues by opening an issue and marking it as security-sensitive (or use an out-of-band contact if preferred).
 
-## License
-This project is licensed under the MIT License. See LICENSE for details.
-
 ## Acknowledgements
 - Built as a practical starting point for small business ML use-cases.
 - Uses a number of well-maintained open-source libraries (listed in requirements.txt).
